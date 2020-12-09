@@ -3,7 +3,7 @@ import "./App.css";
 import Header from './Components/Header'
 
 class App extends Component {
-  render() {
+  render(props) {
     return (
       <>
         <Header text="Hello World"/>
